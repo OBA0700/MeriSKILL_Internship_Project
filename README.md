@@ -1,4 +1,4 @@
-## MeriSKILL INTERNSHIP PROJECT
+## MeriSKILL INTERNSHIP ANALYTIC PROJECT
 
 ### Project Title: “Sales Data Analysis”
 
