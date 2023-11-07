@@ -12,7 +12,7 @@ SELECT
 FROM hr_analysis;
 /*
 	Total_Employee
-	1470
+	          1470
 */
 
 
@@ -27,8 +27,8 @@ FROM hr_analysis
 GROUP BY 1;
 /*
     Status	          Rate
-	Attrition	       237
-	No_Attrition	  1233
+    Attrition	           237
+    No_Attrition	  1233
 */
 
 
@@ -61,11 +61,11 @@ GROUP BY 1, 2;
 /*
 	Marital_Status	      Gender	    Attrition_rate
 	Single	              Female	                47
-	Single	              Male	                    73
-	Married	              Male	                    53
+	Single	              Male	                73
+	Married	              Male	                53
 	Married	              Female	                31
-	Divorced	          Male	                    24
-	Divorced	          Female	                 9
+	Divorced	      Male	                24
+	Divorced	      Female	                 9
 */
 
 
@@ -101,8 +101,8 @@ ORDER BY 2 DESC;
 	Education_Field	       Attrition_rate
 	Life Sciences	                   89
 	Medical	                           63
-	Marketing	                       35
-	Technical Degree	               32
+	Marketing	                   35
+	Technical Degree	           32
 	Other	                           11
 	Human Resources	                    7
 */
@@ -123,9 +123,9 @@ GROUP BY 1
 ORDER BY 2 DESC;
 /*
 	Department	                 Attrition_rate
-	Research & Development	                133
-	Sales	                                 92
-	Human Resources	                         12
+	Research & Development	                    133
+	Sales	                                     92
+	Human Resources	                             12
 */
 
 
@@ -139,14 +139,14 @@ GROUP BY 1
 ORDER BY 2 DESC;
 /*
 	Job_Role	                Attrition_rate
-	Laboratory Technician	                62
-	Sales Executive	                        57
+	Laboratory Technician	                    62
+	Sales Executive	                            57
 	Research Scientist	                    47
-	Sales Representative	                33
-	Human Resources	                        12
-	Manufacturing Director	                10
+	Sales Representative	                    33
+	Human Resources	                            12
+	Manufacturing Director	                    10
 	Healthcare Representative	             9
-	Manager	                                 5
+	Manager	                                     5
 	Research Director	                     2
 */
 
@@ -161,12 +161,12 @@ GROUP BY 1
 ORDER BY 1;
 /*
 	Job_Level	    Attrition_rate
-	1	                       143
-	2	                        52
-	3	                        32
-	4	                         5
-	5	                         5
-*/
+	        1	               143
+	        2	                52
+	        3	                32
+	        4	                 5
+	        5	                 5
+
 
 
 -- Attrition summary by Year_in_Current_Role and Department
@@ -179,36 +179,36 @@ WHERE Attrition = 'yes'
 GROUP BY 1, 2
 ORDER BY 1;
 /*
-	Years_In_Current_Role	        Department	                Attrition_Rate
+	Years_In_Current_Role	        Department	             Attrition_Rate
 	                    0	        Human Resources	                         4
 	                    0	        Research & Development	                45
 	                    0	        Sales	                                24
 	                    1	        Human Resources	                         1
 	                    1	        Research & Development	                 7
 	                    1	        Sales	                                 3
-						2	        Human Resources	                         5
+			    2	        Human Resources	                         5
 	                    2	        Research & Development	                39
 	                    2	        Sales	                                24
 	                    3	        Research & Development	                 6
-						3	        Sales	                                10
+			    3	        Sales	                                10
 	                    4	        Research & Development	                 9
-					    4	        Sales	                                 6
+			    4	        Sales	                                 6
 	                    5	        Sales	                                 1
 	                    6	        Human Resources	                         1
 	                    6	        Research & Development	                 1
 	                    7	        Human Resources	                         1
 	                    7	        Research & Development	                17
-						7	        Sales	                                13
+			    7	        Sales	                                13
 	                    8	        Research & Development	                 2
 	                    8	        Sales	                                 5 
 	                    9	        Research & Development	                 3
-						9	        Sales	                                 3
+			    9	        Sales	                                 3
 	                   10	        Research & Development	                 1
 	                   10	        Sales	                                 1
 	                   12	        Sales	                                 1
-					   13	        Research & Development	                 1
+			   13	        Research & Development	                 1
 	                   14	        Sales	                                 1
-					   15	        Research & Development	                 2
+			   15	        Research & Development	                 2
 
 
 
@@ -229,7 +229,7 @@ GROUP BY 1;
 /*
 	Performance_rating	      Attrition_Rate
 	Low	                                 200
-	High	                              37
+	High	                                  37
 */
 
 
@@ -248,10 +248,10 @@ GROUP BY 1
 ORDER BY 1;
 /*
 	Work_Life_Balance	   Attrition_Rate
-	1..Bad	                           25
+	1..Bad	                               25
 	2..Average	                       58
-	3..Good	                          127
-	4..Excellent	                   27
+	3..Good	                              127
+	4..Excellent	                       27
 */
 
 
@@ -284,9 +284,9 @@ GROUP BY 1
 ORDER BY 1;
 /*
 	Job_Involvement_Rank	   Attrition_Rate
-	1..Very_Low	                           28
+	1..Very_Low	                       28
 	2..Low	                               71
-	3..Moderate	                          125
+	3..Moderate	                      125
 	4..High	                               13 
 */    
 
@@ -305,7 +305,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 /*
 	Distance_From_Home	   Attrition_Rate
-	Near	                          144
+	Near	                              144
 	Far	                               48
 	Very_Far	                       45
 */    
@@ -335,7 +335,7 @@ ORDER BY 1;
 	1..Very_Dissatisfied	               66
 	2..Dissatisfied	                       46
 	3..Satisfied	                       73
-	4..Very_Satisfied	                   52
+	4..Very_Satisfied	               52
 */
 
 
@@ -357,7 +357,7 @@ ORDER BY 1;
 	1..Very_Dissatisfied	                       72
 	2..Dissatisfied	                               43
 	3..Satisfied	                               62
-	4..Very_Satisfied	                           60
+	4..Very_Satisfied	                       60
 */
 
 
@@ -379,5 +379,5 @@ ORDER BY 1;
 	1..Very_Dissatisfied	                       57
 	2..Dissatisfied	                               45
 	3..Satisfied	                               71
-	4..Very_Satisfied	                           64
+	4..Very_Satisfied	                       64
 */
