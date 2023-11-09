@@ -153,21 +153,26 @@ ORDER BY 2 DESC;
 
 -- Attrition summary by Job_Level
 SELECT
-     Joblevel AS Job_Level,
-     COUNT(Attrition) AS Attrition_rate
+     CASE 
+       WHEN JobLevel = 1 THEN 'Entry Level'
+       WHEN joblevel = 2 THEN 'Junior or Associate'
+       WHEN joblevel = 3 THEN 'Mid level Specialist'
+       WHEN JobLevel = 4 THEN 'Senior'
+       WHEN JobLevel = 5 THEN 'Executive'
+	 END AS Job_Level,
+	 COUNT(Attrition) AS Attrition_rate
 FROM hr_analysis
 WHERE Attrition = 'yes'
 GROUP BY 1
 ORDER BY 1;
 /*
-	Job_Level	    Attrition_rate
-	        1	               143
-	        2	                52
-	        3	                32
-	        4	                 5
-	        5	                 5
-
-
+	Job_Level	       Attrition_rate
+	Entry Level	                  143
+	Executive	                    5
+	Junior or Associate	           52
+	Mid level Specialist	           32
+	Senior	                            5
+*/
 
 -- Attrition summary by Year_in_Current_Role and Department
 SELECT
@@ -209,7 +214,7 @@ ORDER BY 1;
 			   13	        Research & Development	                 1
 	                   14	        Sales	                                 1
 			   15	        Research & Development	                 2
-
+*/
 
 
 
