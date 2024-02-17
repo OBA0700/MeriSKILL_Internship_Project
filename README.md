@@ -18,17 +18,7 @@ Analyze sales data to identify:
 - Top-selling products
 - Revenue metrics for business decision-making
 
-### Analysis Report:
-We have a total **1470** employee counts with an Attrition count of **237(16.12%).**
-Based on the Attrition count, however:
-- The **Male** Gender covers 63.30%, with 150 counts of the total 237. While the remaining 36.70% is dominated by the **Female** gender with 83 Attrition counts
-- The Age distribution presents that the attrition is major and common among the Youths and, most especially, Young adults within the age range of **"18-30"** and **"31-45"** respectively
-- **Marital Status,** and by **Gender,** also further present the fact that attrition rate is higher among the Male employees. However, it is most common among the **Singles,** both Male and Female, followed by the **Married,** while the **Divorced** employees has a very few rate of Attrition.
-- Finally, by **Education Field:** The **Life Sciences** has the highest rate of attrition of 37.60% of 89 attrition counts, followed by the **Medical Field** with 63 counts, resulting to approximately 27%
   
-
-
-
 ## PROJECT TWO
 ### Title: "HR Analytics"
 
@@ -48,6 +38,12 @@ iii. Employee engagement.
 iv. Organization.
 
 ### Analysis Report:
+We have a total **1470** employee counts with an Attrition count of **237(16.12%).**
+Based on the Attrition count, however:
+- The **Male** Gender covers 63.30%, with 150 counts of the total 237. While the remaining 36.70% is dominated by the **Female** gender with 83 Attrition counts
+- The Age distribution presents that the attrition is major and common among the Youths and, most especially, Young adults within the age range of **"18-30"** and **"31-45"** respectively
+- **Marital Status,** and by **Gender,** also further present the fact that attrition rate is higher among the Male employees. However, it is most common among the **Singles,** both Male and Female, followed by the **Married,** while the **Divorced** employees has a very few rate of Attrition.
+- Finally, by **Education Field:** The **Life Sciences** has the highest rate of attrition of 37.60% of 89 attrition counts, followed by the **Medical Field** with 63 counts, resulting to approximately 27%
 #### Attrition Rate by Employee Engagement
 - Employees with **Low Performance** has quite significant high attrition of 84.39%, while by **Job involvement** and **Work-Life-Balance** present a significant rise in attrition at the **"Moderate"** level.
  This implies that the attrition in these cases was caused by neither a poor nor excellent Job experience.
