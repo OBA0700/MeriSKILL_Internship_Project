@@ -37,7 +37,7 @@ ii. Job duty.
 iii. Employee engagement.
 iv. Organization.
 
-### Analysis Report:
+### HR Analytics Report:
 We have a total **1470** employee counts with an Attrition count of **237(16.12%).**
 Based on the Attrition count, however:
 - The **Male** Gender covers 63.30%, with 150 counts of the total 237. While the remaining 36.70% is dominated by the **Female** gender with 83 Attrition counts
